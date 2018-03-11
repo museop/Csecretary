@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 1전산실 정보 -->
+    <string-array name="MON1">
+        <item> </item>
+        <item>컴퓨터시스템입문(E)(007분반) 류광렬</item>
+        <item> </item>
+        <item>파일구조(060분반) 김경석</item>
+        <item>파일구조(061분반) 김경석</item>
+        <item> </item>
+        <item>컴퓨터응용설계및실험 염근혁</item>
+    </string-array>
+    <string-array name="TUE1">
+        <item>소프트웨어시스템설계(059분반) 채흥석</item>
+        <item>오픈소스소프트웨어개발입문(059분반) 채흥석</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>컴퓨터응용설계및실험 채흥석</item>
+    </string-array>
+    <string-array name="WED1">
+        <item> </item>
+        <item>컴퓨터시스템입문(E)(007분반) 류광렬</item>
+        <item> </item>
+        <item>파일구조(060분반) 김경석</item>
+        <item>파일구조(061분반) 김경석</item>
+        <item> </item>
+        <item>컴퓨터응용설계및실험 염근혁</item>
+    </string-array>
+    <string-array name="THU1">
+        <item>소프트웨어시스템설계(059분반) 채흥석</item>
+        <item>오픈소스소프트웨어개발입문(059분반) 채흥석</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="FRI1">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <!-- 2전산실 정보 -->
+    <string-array name="MON2">
+        <item> </item>
+        <item>오픈소스소프트웨어개발입문(062분반) 최윤호</item>
+        <item> </item>
+        <item>C++프로그래밍(060분반) 이기준</item>
+        <item>오픈소스소프트웨어개발입문(063분반) 유영호</item>
+        <item>C++프로그래밍(061분반) 이기준</item>
+        <item>컴퓨터소프트웨어설계및실험 권혁철</item>
+    </string-array>
+    <string-array name="TUE2">
+        <item> </item>
+        <item>컴퓨터시스템입문(004분반) 이도훈</item>
+        <item> </item>
+        <item>컴퓨터시스템입문(006분반) 김미경</item>
+        <item>컴퓨터시스템입문(005분반) 유영호</item>
+        <item> </item>
+        <item>컴퓨터소프트웨어설계및실험 권혁철</item>
+    </string-array>
+    <string-array name="WED2">
+        <item> </item>
+        <item>오픈소스소프트웨어개발입문(062분반) 최윤호</item>
+        <item> </item>
+        <item> </item>
+        <item>오픈소스소프트웨어개발입문(063분반) 유영호</item>
+        <item> </item>
+        <item>컴퓨터소프트웨어설계및실험 권혁철</item>
+    </string-array>
+    <string-array name="THU2">
+        <item>C++프로그래밍(E)(063분반) 유영환</item>
+        <item>컴퓨터시스템입문(004분반) 이도훈</item>
+        <item> </item>
+        <item>컴퓨터시스템입문(006분반) 김미경</item>
+        <item>컴퓨터시스템입문(005분반) 유영호</item>
+        <item> </item>
+        <item>컴퓨터소프트웨어설계및실험 권혁철</item>
+    </string-array>
+    <string-array name="FRI2">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <!-- 3전산실 정보 -->
+    <string-array name="MON3">
+        <item>오픈소스소프트웨어개발입문(E)(060분반) 탁성우</item>
+        <item>C++프로그래밍(E)(062분반) 탁성우</item>
+        <item> </item>
+        <item>오픈소스소프트웨어개발입문(E)(061분반) 탁성우</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="TUE3">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="WED3">
+        <item>오픈소스소프트웨어개발입문(E)(060분반) 탁성우</item>
+        <item>C++프로그래밍(E)(062분반) 탁성우</item>
+        <item> </item>
+        <item>오픈소스소프트웨어개발입문(E)(061분반) 탁성우</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="THU3">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="FRI3">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+</resources>

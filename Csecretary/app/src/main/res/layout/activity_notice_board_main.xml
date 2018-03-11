@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.museop.termproject.NoticeBoardMainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0f7ff">
+
+        <TextView android:text="태그를 선택하세요"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#43a1ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ListView android:id="@+id/list_view_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#e0f7ff"
+            android:cacheColorHint="#000000"
+            android:dividerHeight="6dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

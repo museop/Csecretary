@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="alarmEnable"
+        android:summaryOn="업데이트 알림을 받습니다."
+        android:summaryOff="업데이트 알림을 받지 않습니다."
+        android:switchTextOn="ON"
+        android:switchTextOff="OFF"
+        android:title="게시글 업데이트 알림"/>
+
+    <PreferenceCategory android:title="학과 게시판">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cse0"
+            android:dependency="alarmEnable"
+            android:title="학과 공지사항게시판"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cse1"
+            android:dependency="alarmEnable"
+            android:title="학과 수업게시판"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cse2"
+            android:dependency="alarmEnable"
+            android:title="학과 채용게시판"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cse3"
+            android:dependency="alarmEnable"
+            android:title="학과 기타행사게시판"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cse4"
+            android:dependency="alarmEnable"
+            android:title="학과 자유게시판"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="게시판 목록_1학년">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_0"
+            android:dependency="alarmEnable"
+            android:title="C프로그래밍(차의영)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_1"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시스템입문(조환규 001분반)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_2"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시스템입문(조환규 002분반)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_3"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시스템입문 공지사항(이도훈)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_4"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시스템입문 강의자료(이도훈)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture1_5"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시스템입문(류광렬)"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="게시판 목록_2학년">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_0"
+            android:dependency="alarmEnable"
+            android:title="논리회로및설계 공지사항(이정태)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_1"
+            android:dependency="alarmEnable"
+            android:title="논리회로및설계 강의자료(이정태)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_2"
+            android:dependency="alarmEnable"
+            android:title="논리회로및설계(양세양)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_3"
+            android:dependency="alarmEnable"
+            android:title="디지털전자회로(김정구)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_4"
+            android:dependency="alarmEnable"
+            android:title="공학선형대수학(김민환)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_5"
+            android:dependency="alarmEnable"
+            android:title="공학선형대수학(이도훈)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_6"
+            android:dependency="alarmEnable"
+            android:title="이산수학(김민환)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_7"
+            android:dependency="alarmEnable"
+            android:title="이산수학(류광렬)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_8"
+            android:dependency="alarmEnable"
+            android:title="이산수학 공지사항(김종덕)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_9"
+            android:dependency="alarmEnable"
+            android:title="이산수학 강의자료(김종덕)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_10"
+            android:dependency="alarmEnable"
+            android:title="C++프로그래밍(탁성우)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_11"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터기초실험(김정구)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_12"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터기초실험(이정태)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_13"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터기초실험(양세양)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_14"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터기초실험(최윤호)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_15"
+            android:dependency="alarmEnable"
+            android:title="오픈소스소프트웨어개발입문(채흥석)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_16"
+            android:dependency="alarmEnable"
+            android:title="오픈소스소프트웨어개발입문(탁성우)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture2_17"
+            android:dependency="alarmEnable"
+            android:title="오픈소스소프트웨어개발입문(최윤호)"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="게시판 목록_3학년">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_0"
+            android:dependency="alarmEnable"
+            android:title="데이터통신 공지사항(이정태)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_1"
+            android:dependency="alarmEnable"
+            android:title="데이터통신 강의자료(이정태)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_2"
+            android:dependency="alarmEnable"
+            android:title="데이터통신 공지사항(김종덕)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_3"
+            android:dependency="alarmEnable"
+            android:title="데이터통신 강의자료(김종덕)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_4"
+            android:dependency="alarmEnable"
+            android:title="운영체제(최윤호)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_5"
+            android:dependency="alarmEnable"
+            android:title="프로그래밍언어론 공지사항(권혁철)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_6"
+            android:dependency="alarmEnable"
+            android:title="프로그래밍언어론 강의자료(권혁철)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_7"
+            android:dependency="alarmEnable"
+            android:title="프로그래밍언어론 공지사항(염근혁)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_8"
+            android:dependency="alarmEnable"
+            android:title="프로그래밍언어론 강의자료(염근혁)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_9"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터구조(백윤주)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_10"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터구조 공지사항(김호원)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_11"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터구조 강의자료(김호원)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_12"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터소프트웨어실험 공지사항(전분반)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture3_13"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터소프트웨어실험 강의자료(전분반)"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="게시판 목록_4학년">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_0"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터시각개론(차의영)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_1"
+            android:dependency="alarmEnable"
+            android:title="인공지능 공지사항(권혁철)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_2"
+            android:dependency="alarmEnable"
+            android:title="인공지능 강의자료(권혁철)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_3"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터보안 공지사항(김호원)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_4"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터보안 강의자료(김호원)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_5"
+            android:dependency="alarmEnable"
+            android:title="소프트웨어시스템설계(채흥석)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_6"
+            android:dependency="alarmEnable"
+            android:title="집적회로및시스템설계(양세양)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_7"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터응용설계실험(백윤주)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_8"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터응용설계실험(염근혁)"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lecture4_9"
+            android:dependency="alarmEnable"
+            android:title="컴퓨터응용설계실험(채흥석)"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

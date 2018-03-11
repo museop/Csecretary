@@ -1,0 +1,444 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#e0f7ff"
+    tools:context="com.museop.termproject.ComputerRoom$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="현재 시간   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/section_label"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:stretchColumns="5">
+
+        <TableRow
+            android:padding="5dp"
+            android:background="#77c0f1">
+            <TextView
+                android:textColor="#ffffff"
+                android:text="시 간"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="월"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_column="1"/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="화"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_column="2"/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="수"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_column="3"/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="목"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_column="4"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp">
+
+            <TextView android:id="@+id/time_0900"
+                android:text="09:00\n   ~\n10:15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_0900_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_0900_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_0900_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_0900_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            android:background="#f5f5f5">
+            <TextView android:id="@+id/time_1030"
+                android:text="10:30\n   ~\n11:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1030_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1030_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1030_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1030_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp">
+            <TextView android:id="@+id/time_1200"
+                android:text="12:00\n   ~\n13:15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1200_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1200_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1200_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1200_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            android:background="#f5f5f5">
+            <TextView android:id="@+id/time_1330"
+                android:text="13:30\n   ~\n14:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1330_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1330_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1330_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1330_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp">
+            <TextView android:id="@+id/time_1500"
+                android:text="15:00\n   ~\n16:15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1500_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1500_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1500_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1500_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            android:background="#f5f5f5">
+            <TextView android:id="@+id/time_1630"
+                android:text="16:30\n   ~\n17:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1630_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1630_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1630_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1630_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp">
+            <TextView android:id="@+id/time_1800"
+                android:text="18:00\n   ~\n23:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/time_1800_mon"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/time_1800_tue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/time_1800_wed"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/time_1800_thu"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:layout_column="4"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 알림 설정 프레퍼런스 Key값들 -->
+    <string-array name="key_list">
+        <!-- 학과 -->
+        <item>cse0</item> <item>cse1</item> <item>cse2</item>
+        <item>cse3</item> <item>cse4</item>
+
+        <!-- 1학년 과목 -->
+        <item>lecture1_0</item> <item>lecture1_1</item> <item>lecture1_2</item>
+        <item>lecture1_3</item> <item>lecture1_4</item> <item>lecture1_5</item>
+
+        <!-- 2학년 과목 -->
+        <item>lecture2_0</item> <item>lecture2_1</item> <item>lecture2_2</item>
+        <item>lecture2_3</item> <item>lecture2_4</item> <item>lecture2_5</item>
+        <item>lecture2_6</item> <item>lecture2_7</item> <item>lecture2_8</item>
+        <item>lecture2_9</item> <item>lecture2_10</item> <item>lecture2_11</item>
+        <item>lecture2_12</item> <item>lecture2_13</item> <item>lecture2_14</item>
+        <item>lecture2_15</item> <item>lecture2_16</item> <item>lecture2_17</item>
+
+        <!-- 3학년 과목 -->
+        <item>lecture3_0</item> <item>lecture3_1</item> <item>lecture3_2</item>
+        <item>lecture3_3</item> <item>lecture3_4</item> <item>lecture3_5</item>
+        <item>lecture3_6</item> <item>lecture3_7</item> <item>lecture3_8</item>
+        <item>lecture3_9</item> <item>lecture3_10</item> <item>lecture3_11</item>
+        <item>lecture3_12</item> <item>lecture3_13</item>
+
+        <!-- 4학년 과목 -->
+        <item>lecture4_0</item> <item>lecture4_1</item> <item>lecture4_2</item>
+        <item>lecture4_3</item> <item>lecture4_4</item> <item>lecture4_5</item>
+        <item>lecture4_6</item> <item>lecture4_7</item> <item>lecture4_8</item>
+        <item>lecture4_9</item>
+    </string-array>
+
+    <!-- 게시판 별 소속/교수님 -->
+    <string-array name="professors">
+        <!-- 학과 -->
+        <item>정보컴퓨터공학부</item> <item>정보컴퓨터공학부</item> <item>정보컴퓨터공학부</item>
+        <item>정보컴퓨터공학부</item> <item>정보컴퓨터공학부</item>
+
+        <!-- 1학년 과목 -->
+        <item>차의영</item> <item>조환규</item> <item>조환규</item>
+        <item>이도훈</item> <item>이도훈</item> <item>류광렬</item>
+
+        <!-- 2학년 과목 -->
+        <item>이정태</item> <item>이정태</item> <item>양세양</item>
+        <item>김정구</item> <item>김민환</item> <item>이도훈</item>
+        <item>김민환</item> <item>류광렬</item> <item>김종덕</item>
+        <item>김종덕</item> <item>탁성우</item> <item>김정구</item>
+        <item>이정태</item> <item>양세양</item> <item>최윤호</item>
+        <item>채흥석</item> <item>탁성우</item> <item>최윤호</item>
+
+        <!-- 3학년 과목 -->
+        <item>이정태</item> <item>이정태</item> <item>김종덕</item>
+        <item>김종덕</item> <item>최윤호</item> <item>권혁철</item>
+        <item>권혁철</item> <item>염근혁</item> <item>염근혁</item>
+        <item>백윤주</item> <item>김호원</item> <item>김호원</item>
+        <item>권혁철</item> <item>권혁철</item>
+
+        <!-- 4학년 과목 -->
+        <item>차의영</item> <item>권혁철</item> <item>권혁철</item>
+        <item>김호원</item> <item>김호원</item> <item>채흥석</item>
+        <item>양세양</item> <item>백윤주</item> <item>염근혁</item>
+        <item>채흥석</item>
+    </string-array>
+
+    <!-- spinner 목록에 담겨지는 게시판 항목들  -->
+    <string-array name="board_list">
+
+        <!-- 학과 게시판 -->
+        <item>학과 공지사항</item>                             <!--[0]-->
+        <item>학과 수업게시판</item>                           <!--[1]-->
+        <item>학과 채용게시판</item>                           <!--[2]-->
+        <item>학과 기타행사게시판</item>                       <!--[3]-->
+        <item>학과 자유게시판</item>                           <!--[4]-->
+
+        <!-- 1학년 과목 -->
+        <item>C프로그래밍(차의영)</item>                       <!--[5]-->
+        <item>컴퓨터시스템입문(조환규001)</item>                <!--[6]-->
+        <item>컴퓨터시스템입문(조환규002)</item>                <!--[7]-->
+        <item>컴퓨터시스템입문 공지사항(이도훈)</item>           <!--[8]-->
+        <item>컴퓨터시스템입문 강의자료(이도훈)</item>           <!--[9]-->
+        <item>컴퓨터시스템입문(류광렬)</item>                   <!--[10]-->
+
+        <!-- 2학년 과목 -->
+        <item>논리회로및설계 공지사항(이정태)</item>             <!--[11]-->
+        <item>논리회로및설계 강의자료(이정태)</item>             <!--[12]-->
+        <item>논리회로및설계(양세양)</item>                     <!--[13]-->
+        <item>디지털전자회로(김정구)</item>                     <!--[14]-->
+        <item>공학선형대수학(김민환)</item>                     <!--[15]-->
+        <item>공학선형대수학(이도훈)</item>                     <!--[16]-->
+        <item>이산수학(김민환)</item>                          <!--[17]-->
+        <item>이산수학(류광렬)</item>                          <!--[18]-->
+        <item>이산수학 공지사항(김종덕)</item>                  <!--[19]-->
+        <item>이산수학 강의자료(김종덕)</item>                  <!--[20]-->
+        <item>C++프로그래밍(탁성우)</item>                     <!--[21]-->
+        <item>컴퓨터기초실험(김정구)</item>                     <!--[22]-->
+        <item>컴퓨터기초실험(이정태)</item>                     <!--[23]-->
+        <item>컴퓨터기초실험(양세양)</item>                     <!--[24]-->
+        <item>컴퓨터기초실험(최윤호)</item>                     <!--[25]-->
+        <item>오픈소스소프트웨어개발입문(채흥석)</item>          <!--[26]-->
+        <item>오픈소스소프트웨어개발입문(탁성우)</item>          <!--[27]-->
+        <item>오픈소스소프트웨어개발입문(최윤호)</item>          <!--[28]-->
+
+        <!-- 3학년 -->
+        <item>데이터통신 공지사항(이정태)</item>                     <!--[29]-->
+        <item>데이터통신 강의자료(이정태)</item>                     <!--[30]-->
+        <item>데이터통신 공지사항(김종덕)</item>                     <!--[31]-->
+        <item>데이터통신 강의자료(김종덕)</item>                     <!--[32]-->
+        <item>운영체제(최윤호)</item>                              <!--[33]-->
+        <item>프로그래밍언어론 공지사항(권혁철)</item>                <!--[34]-->
+        <item>프로그래밍언어론 강의자료(권혁철)</item>                <!--[35]-->
+        <item>프로그래밍언어론 공지사항(염근혁)</item>                <!--[36]-->
+        <item>프로그래밍언어론 강의자료(염근혁)</item>                <!--[37]-->
+        <item>컴퓨터구조(백윤주)</item>                              <!--[38]-->
+        <item>컴퓨터구조 공지사항(김호원)</item>                     <!--[39]-->
+        <item>컴퓨터구조 강의자료(김호원)</item>                     <!--[40]-->
+        <item>컴퓨터소프트웨어실험 공지사항(권혁철)</item>            <!--[41]-->
+        <item>컴퓨터소프트웨어실험 강의자료(권혁철)</item>            <!--[42]-->
+
+        <!-- 4학년 -->
+        <item>컴퓨터시각개론(차의영)</item>                          <!--[43]-->
+        <item>인공지능 공지사항(권혁철)</item>                       <!--[44]-->
+        <item>인공지능 강의자료(권혁철)</item>                       <!--[45]-->
+        <item>컴퓨터보안 공지사항(김호원)</item>                     <!--[46]-->
+        <item>컴퓨터보안 강의자료(김호원)</item>                     <!--[47]-->
+        <item>소프트웨어시스템설계(채흥석)</item>                    <!--[48]-->
+        <item>집적회로및시스템설계(양세양)</item>                    <!--[49]-->
+        <item>컴퓨터응용설계실험(백윤주)</item>                      <!--[50]-->
+        <item>컴퓨터응용설계실험(염근혁)</item>                      <!--[51]-->
+        <item>컴퓨터응용설계실험(채흥석)</item>                      <!--[52]-->
+    </string-array>
+
+    <!-- 파싱할 url 목록 -->
+    <string-array name="url_list">
+
+        <!-- 학과 게시판 -->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21704&amp;siteId=cse&amp;linkUrl=</item>        <!--[0]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[1]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21710&amp;siteId=cse</item>                     <!--[2]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21711&amp;siteId=cse</item>                     <!--[3]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21712&amp;siteId=cse</item>                     <!--[4]-->
+
+        <!-- 1학년 과목 -->
+        <item>http://52.196.227.153:8080/parsingHelper/ComputerVision059.jsp</item>                                     <!--[5]-->
+        <item>http://52.196.227.153:8080/parsingHelper/ComputerSystemIntro001.jsp</item>                                <!--[6]-->
+        <item>http://52.196.227.153:8080/parsingHelper/ComputerSystemIntro002.jsp</item>                                <!--[7]-->
+        <item>http://164.125.35.15/visbic_course/index.php?mid=CS1601notice</item>                                      <!--[8]-->
+        <item>http://164.125.35.15/visbic_course/index.php?mid=CS1601lecture</item>                                     <!--[9]-->
+        <item>http://52.196.227.153:8080/parsingHelper/ComputerSystemIntro007.jsp</item>                                <!--[10]-->
+
+        <!-- 2학년 과목 -->
+        <item>http://jtlee.pusan.ac.kr/Jsource/Jboard/list1.asp?ji_num=243</item>                                       <!--[11]-->
+        <item>http://jtlee.pusan.ac.kr/Jsource/Jboard/list1.asp?ji_num=244</item>                                       <!--[12]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[13]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8008&amp;siteId=kimjg</item>                     <!--[14]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[15]-->
+        <item>http://164.125.35.15/visbic_course/index.php?mid=LA1601notice</item>                                      <!--[16]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[17]-->
+        <item>http://52.196.227.153:8080/parsingHelper/DiscreteMathematics060.jsp</item>                                <!--[18]-->
+        <item>http://mobile.pusan.ac.kr/discrete_math_notice_2016</item>                                                <!--[19]-->
+        <item>http://mobile.pusan.ac.kr/discrete_math_material_2016</item>                                              <!--[20]-->
+        <item>http://nclab.blogspot.kr/search/label/C%20Double%20Plus</item>                                            <!--[21]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8007&amp;siteId=kimjg</item>                     <!--[22]-->
+        <item>http://jtlee.pusan.ac.kr/Jsource/Jboard/list1.asp?ji_num=253</item>                                       <!--[23]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[24]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8027&amp;siteId=sec</item>                       <!--[25]-->
+        <item>http://square.cse.pusan.ac.kr/xe/board_Pqiw21</item>                                                      <!--[26]-->
+        <item>http://nclab.blogspot.kr/search/label/Open%20Source%20S%2FW</item>                                        <!--[27]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8023&amp;siteId=sec</item>                       <!--[28]-->
+
+        <!-- 3학년 -->
+        <item>http://jtlee.pusan.ac.kr/Jsource/Jboard/list1.asp?ji_num=248</item>                                       <!--[29]-->
+        <item>http://jtlee.pusan.ac.kr/Jsource/Jboard/list1.asp?ji_num=249</item>                                       <!--[30]-->
+        <item>http://mobile.pusan.ac.kr/data_communication_notice_2016</item>                                           <!--[31]-->
+        <item>http://mobile.pusan.ac.kr/data_communication_material_2016</item>                                         <!--[32]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8026&amp;siteId=sec</item>                       <!--[33]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=7958&amp;siteId=ailab</item>                     <!--[34]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=7951&amp;siteId=ailab</item>                     <!--[35]-->
+        <item>http://se.ce.pusan.ac.kr/xe/pl_2016_01_notice</item>                                                      <!--[36]-->
+        <item>http://se.ce.pusan.ac.kr/xe/pl_2016_01_lecture</item>                                                     <!--[37]-->
+        <item>http://eslab.ismine.net/bbs/bbs/board.php?bo_table=arch2016</item>                                        <!--[38]-->
+        <item>http://infosec.pusan.ac.kr/bbs/zboard.php?id=u2016_1_ca_b</item>                                          <!--[39]-->
+        <item>http://infosec.pusan.ac.kr/bbs/zboard.php?id=u2016_1_ca</item>                                            <!--[40]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8060&amp;siteId=ailab</item>                     <!--[41]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8059&amp;siteId=ailab</item>                     <!--[42]-->
+
+        <!-- 4학년 -->
+        <item>http://52.196.227.153:8080/parsingHelper/ComputerVision059.jsp</item>                                     <!--[43]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=8050&amp;siteId=ailab&amp;linkUrl=</item>        <!--[44]-->
+        <item>http://prof.pusan.ac.kr/user/indexSub.action?codyMenuSeq=7951&amp;siteId=ailab</item>                     <!--[45]-->
+        <item>http://infosec.pusan.ac.kr/bbs/zboard.php?id=u2016_1_cs_b</item>                                          <!--[46]-->
+        <item>http://infosec.pusan.ac.kr/bbs/zboard.php?id=u2016_1_cs</item>                                            <!--[47]-->
+        <item>http://square.cse.pusan.ac.kr/xe/board_eOfJ46</item>                                                      <!--[48]-->
+        <item>http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21709&amp;siteId=cse&amp;linkUrl=</item>        <!--[49]-->
+        <item>http://eslab.byus.net/bbs/bbs/board.php?bo_table=4_1exp2016 </item>                                       <!--[50]-->
+        <item>http://se.ce.pusan.ac.kr/xe/exp_2016_01_notice</item>                                                     <!--[51]-->
+        <item>http://164.125.34.143/redmine/news</item>                                                                 <!--[52]-->
+    </string-array>
+
+    <!-- 선택자 목록 -->
+    <string-array name="selector_list">
+
+        <!-- 학과 게시판 -->
+        <item>td.title>a</item>                         <!--[0]-->
+        <item>td.title>a</item>                         <!--[1]-->
+        <item>td.title>a</item>                         <!--[2]-->
+        <item>td.title>a</item>                         <!--[3]-->
+        <item>td.title>a</item>                         <!--[4]-->
+
+        <!-- 1학년 과목 -->
+        <item>ul>li>a</item>                              <!--[5]-->
+        <item>ul>li>a</item>                              <!--[6]-->
+        <item>ul>li>a</item>                              <!--[7]-->
+        <item>td.title>a</item>                         <!--[8]-->
+        <item>td.title>a</item>                         <!--[9]-->
+        <item>ul>li>a</item>                              <!--[10]-->
+
+        <!-- 2학년 과목 -->
+        <item>td:nth-child(3)>a</item>                  <!--[11]-->
+        <item>td:nth-child(3)>a</item>                  <!--[12]-->
+        <item>td.title>a</item>                         <!--[13]-->
+        <item>td.title>a</item>                         <!--[14]-->
+        <item>td.title>a</item>                         <!--[15]-->
+        <item>td.title>a</item>                         <!--[16]-->
+        <item>td.title>a</item>                         <!--[17]-->
+        <item>ul>li>a</item>                         <!--[18]-->
+        <item>td.title>a</item>                         <!--[19]-->
+        <item>td.title>a</item>                         <!--[20]-->
+        <item>h3>a</item>                               <!--[21]-->
+        <item>td.title>a</item>                         <!--[22]-->
+        <item>td:nth-child(3)>a</item>                  <!--[23]-->
+        <item>td.title>a</item>                         <!--[24]-->
+        <item>td.title>a</item>                         <!--[25]-->
+        <item>td.title>a</item>                         <!--[26]-->
+        <item>h3>a</item>                               <!--[27]-->
+        <item>td.title>a</item>                         <!--[28]-->
+
+        <!-- 3학년 -->
+        <item>td:nth-child(3)>a</item>                          <!--[29]-->
+        <item>td:nth-child(3)>a</item>                          <!--[30]-->
+        <item>td.title>a</item>                                 <!--[31]-->
+        <item>td.title>a</item>                                 <!--[32]-->
+        <item>td.title>a</item>                                 <!--[33]-->
+        <item>td.title>a</item>                                 <!--[34]-->
+        <item>td.title>a</item>                                 <!--[35]-->
+        <item>td.title>a</item>                                 <!--[36]-->
+        <item>td.title>a</item>                                 <!--[37]-->
+        <item>td.subject>a</item>                               <!--[38]-->
+        <item>div>table>tbody>tr>td>table>tbody>tr>td>a</item>  <!--[39]-->
+        <item>div>table>tbody>tr>td>table>tbody>tr>td>a</item>  <!--[40]-->
+        <item>td.title>a</item>                                 <!--[41]-->
+        <item>td.title>a</item>                                 <!--[42]-->
+
+        <!-- 4학년 -->
+        <item>ul>li>a</item>                                      <!--[43]-->
+        <item>td.title>a</item>                                 <!--[44]-->
+        <item>td.title>a</item>                                 <!--[45]-->
+        <item>div>table>tbody>tr>td>table>tbody>tr>td>a</item>  <!--[46]-->
+        <item>div>table>tbody>tr>td>table>tbody>tr>td>a</item>  <!--[47]-->
+        <item>td.title>a</item>                                 <!--[48]-->
+        <item>td.title>a</item>                                 <!--[49]-->
+        <item>td.subject>a</item>                               <!--[50]-->
+        <item>td.title>a</item>                                 <!--[51]-->
+        <item>h3>a:nth-child(2)</item>                          <!--[52]-->
+
+    </string-array>
+
+    <!-- 게시판 타입 -->
+    <!-- 0: 학과,     1: 차의영,  2: 이정태,  3: 권혁철,  4: 조환규,
+         5: 류광렬    6: 염근혁,  7: 이도훈,  8: 김정구,  9: 백윤주,
+         10: 김종덕, 11: 채흥석, 12: 탁성우, 13: 김호원, 14: 최윤호 -->
+    <integer-array name="type_list">
+        <!-- 학과 게시판 -->
+        <item>0</item>                          <!--[0]-->
+        <item>0</item>                          <!--[1]-->
+        <item>0</item>                          <!--[2]-->
+        <item>0</item>                          <!--[3]-->
+        <item>0</item>                          <!--[4]-->
+
+        <!-- 1학년 과목 -->
+        <item>1</item>                          <!--[5]-->
+        <item>4</item>                          <!--[6]-->
+        <item>4</item>                          <!--[7]-->
+
+        <item>7</item>                          <!--[8]-->
+        <item>7</item>                          <!--[9]-->
+        <item>5</item>                          <!--[10]-->
+
+        <!-- 2학년 과목 -->
+        <item>2</item>                          <!--[11]-->
+        <item>2</item>                          <!--[12]-->
+        <item>0</item>                          <!--[13]-->
+        <item>8</item>                          <!--[14]-->
+        <item>0</item>                          <!--[15]-->
+        <item>7</item>                          <!--[16]-->
+        <item>0</item>                          <!--[17]-->
+        <item>5</item>                          <!--[18]-->
+        <item>10</item>                          <!--[19]-->
+        <item>10</item>                          <!--[20]-->
+        <item>12</item>                          <!--[21]-->
+        <item>8</item>                          <!--[22]-->
+        <item>2</item>                          <!--[23]-->
+        <item>0</item>                          <!--[24]-->
+        <item>14</item>                          <!--[25]-->
+        <item>11</item>                          <!--[26]-->
+        <item>12</item>                          <!--[27]-->
+        <item>14</item>                          <!--[28]-->
+
+        <!-- 3학년 -->
+        <item>2</item>                          <!--[29]-->
+        <item>2</item>                          <!--[30]-->
+        <item>10</item>                          <!--[31]-->
+        <item>10</item>                          <!--[32]-->
+        <item>14</item>                          <!--[33]-->
+        <item>3</item>                          <!--[34]-->
+        <item>3</item>                          <!--[35]-->
+        <item>6</item>                          <!--[36]-->
+        <item>6</item>                          <!--[37]-->
+        <item>9</item>                          <!--[38]-->
+        <item>13</item>                          <!--[39]-->
+        <item>13</item>                          <!--[40]-->
+        <item>3</item>                          <!--[41]-->
+        <item>3</item>                          <!--[42]-->
+
+        <!-- 4학년 -->
+        <item>1</item>                          <!--[43]-->
+        <item>3</item>                          <!--[44]-->
+        <item>3</item>                          <!--[45]-->
+        <item>13</item>                          <!--[46]-->
+        <item>13</item>                          <!--[47]-->
+        <item>11</item>                          <!--[48]-->
+        <item>0</item>                          <!--[49]-->
+        <item>9</item>                          <!--[50]-->
+        <item>6</item>                          <!--[51]-->
+        <item>11</item>                          <!--[52]-->
+    </integer-array>
+</resources>
